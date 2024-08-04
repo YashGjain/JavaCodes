@@ -1,0 +1,37 @@
+public class DataType {
+    public static void main(String[] args) {
+        boolean BT = true;
+        System.out.println(BT);
+
+        // Removed invalid byte assignment as 128 is out of range
+        // byte BY = 128; // This will cause a compile-time error
+        // System.out.println(BY);
+
+        // Correcting Char assignment, single quotes are needed
+        char ch = 'A';
+        // Declaring and initializing 'ce'
+        int ce = 122;
+        System.out.println(ch);
+        System.out.println(ce);
+
+        // Using a valid variable name
+        int myInt = 12;
+        System.out.println(myInt);
+
+        // Correcting Short assignment
+        short sh = 2233; // Note: short range is -32768 to 32767
+        System.out.println(sh);
+
+        // Long literal should be suffixed with 'L'
+        long L = 2344444L;
+        System.out.println(L);
+
+        // Float variable name and value assignment corrected
+        float myFloat = 4.0f;
+        System.out.println(myFloat);
+
+        // Correcting Double assignment
+        double DD = 2323;
+        System.out.println(DD);
+    }
+}
